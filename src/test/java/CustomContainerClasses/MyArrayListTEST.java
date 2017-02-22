@@ -18,8 +18,9 @@ public class MyArrayListTEST {
 
     @Test
     public void addTEST() {
+        arrList.add(new Integer(17));
         int expected = 1;
-        int acutal = arrList.add(new Integer(17)).length();
-        assertEquals("I should get back the length of the new array created by the method",expected,acutal);
+        int actual = arrList.container.length;
+        assertEquals("I should get back the length of the new array created by the method",expected,actual);
     }
 }
