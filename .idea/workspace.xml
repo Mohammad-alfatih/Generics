@@ -40,21 +40,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyArrayList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyArrayList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CustomContainerClasses/MyArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="600">
+              <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+              <folding>
+                <element signature="e#292#322#0" expanded="true" />
+                <element signature="e#562#592#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#1050#1051#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyArrayListTEST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyArrayListTEST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CustomContainerClasses/MyArrayListTEST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+            <state relative-caret-position="217">
+              <caret line="46" column="34" lean-forward="false" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +90,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/CustomContainerClasses/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/test/java/CustomContainerClasses/MyArrayListTEST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CustomContainerClasses/MyArrayList.java" />
       </list>
     </option>
   </component>
@@ -221,7 +228,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="JUnit.MyArrayListTEST.addTEST">
+  <component name="RunManager" selected="JUnit.MyArrayListTEST.getTEST">
     <configuration default="false" name="MyArrayListTEST.addTEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -235,6 +242,58 @@
       <option name="PACKAGE_NAME" value="CustomContainerClasses" />
       <option name="MAIN_CLASS_NAME" value="CustomContainerClasses.MyArrayListTEST" />
       <option name="METHOD_NAME" value="addTEST" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyArrayListTEST.getTEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="CustomContainerClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Generics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="CustomContainerClasses" />
+      <option name="MAIN_CLASS_NAME" value="CustomContainerClasses.MyArrayListTEST" />
+      <option name="METHOD_NAME" value="getTEST" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyArrayListTEST.removeTEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="CustomContainerClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Generics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="CustomContainerClasses" />
+      <option name="MAIN_CLASS_NAME" value="CustomContainerClasses.MyArrayListTEST" />
+      <option name="METHOD_NAME" value="removeTEST" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -621,12 +680,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MyArrayListTEST.addTEST" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyArrayListTEST.getTEST" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MyArrayListTEST.removeTEST" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyArrayListTEST.addTEST" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyArrayListTEST.getTEST" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MyArrayListTEST.removeTEST" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MyArrayListTEST.addTEST" />
       </list>
     </recent_temporary>
   </component>
@@ -640,44 +703,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487790786758</updated>
-      <workItem from="1487790788229" duration="8777000" />
+      <workItem from="1487790788229" duration="13535000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyArrayListTEST_addTEST - 2017.02.22 at 16h 59m 16s.xml">
+    <history-entry file="MyArrayListTEST_addTEST - 2017.02.22 at 17h 13m 04s.xml">
       <configuration name="MyArrayListTEST.addTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTEST_addTEST - 2017.02.22 at 17h 00m 40s.xml">
+    <history-entry file="MyArrayListTEST_addTEST - 2017.02.22 at 17h 13m 36s.xml">
       <configuration name="MyArrayListTEST.addTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTEST_addTEST - 2017.02.22 at 17h 01m 14s.xml">
+    <history-entry file="MyArrayListTEST_addTEST - 2017.02.22 at 17h 16m 01s.xml">
       <configuration name="MyArrayListTEST.addTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTEST_addTEST - 2017.02.22 at 17h 01m 44s.xml">
-      <configuration name="MyArrayListTEST.addTEST" configurationId="JUnit" />
+    <history-entry file="MyArrayListTEST_getTEST - 2017.02.22 at 17h 18m 12s.xml">
+      <configuration name="MyArrayListTEST.getTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTEST_addTEST - 2017.02.22 at 17h 02m 24s.xml">
-      <configuration name="MyArrayListTEST.addTEST" configurationId="JUnit" />
+    <history-entry file="MyArrayListTEST_getTEST - 2017.02.22 at 17h 19m 20s.xml">
+      <configuration name="MyArrayListTEST.getTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTEST_addTEST - 2017.02.22 at 17h 03m 08s.xml">
-      <configuration name="MyArrayListTEST.addTEST" configurationId="JUnit" />
+    <history-entry file="MyArrayListTEST_getTEST - 2017.02.22 at 18h 05m 31s.xml">
+      <configuration name="MyArrayListTEST.getTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTEST_addTEST - 2017.02.22 at 17h 03m 17s.xml">
-      <configuration name="MyArrayListTEST.addTEST" configurationId="JUnit" />
+    <history-entry file="MyArrayListTEST_getTEST - 2017.02.22 at 18h 44m 51s.xml">
+      <configuration name="MyArrayListTEST.getTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTEST_addTEST - 2017.02.22 at 17h 03m 28s.xml">
-      <configuration name="MyArrayListTEST.addTEST" configurationId="JUnit" />
+    <history-entry file="MyArrayListTEST_removeTEST - 2017.02.22 at 18h 43m 32s.xml">
+      <configuration name="MyArrayListTEST.removeTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTEST_addTEST - 2017.02.22 at 17h 03m 55s.xml">
-      <configuration name="MyArrayListTEST.addTEST" configurationId="JUnit" />
+    <history-entry file="MyArrayListTEST_removeTEST - 2017.02.22 at 18h 43m 49s.xml">
+      <configuration name="MyArrayListTEST.removeTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTEST_addTEST - 2017.02.22 at 17h 04m 04s.xml">
-      <configuration name="MyArrayListTEST.addTEST" configurationId="JUnit" />
+    <history-entry file="MyArrayListTEST_removeTEST - 2017.02.22 at 18h 44m 05s.xml">
+      <configuration name="MyArrayListTEST.removeTEST" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8777000" />
+    <option name="totallyTimeSpent" value="13535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="715" extended-state="6" />
@@ -692,7 +755,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -745,20 +808,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CustomContainerClasses/MyArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CustomContainerClasses/MyArrayListTEST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="217">
+          <caret line="46" column="34" lean-forward="false" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CustomContainerClasses/MyArrayListTEST.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CustomContainerClasses/MyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        <state relative-caret-position="600">
+          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#292#322#0" expanded="true" />
+            <element signature="e#562#592#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
           </folding>
         </state>
       </provider>
