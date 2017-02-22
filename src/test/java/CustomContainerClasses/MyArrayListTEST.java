@@ -12,15 +12,15 @@ public class MyArrayListTEST {
     MyArrayList<Integer> arrList;
 
     @Before
-    public void setUp() {
+    public void setUp() throws ClassCastException {
         arrList = new MyArrayList<Integer>();
     }
 
     @Test
-    public void addTEST() {
+    public void addTEST(){
         arrList.add(17);
         int expected = 17;
-        int actual = arrList.container[0];
+        int actual = arrList.add(24).length;
         assertEquals("I should get back the length of the new array created by the method",expected,actual);
     }
 }
