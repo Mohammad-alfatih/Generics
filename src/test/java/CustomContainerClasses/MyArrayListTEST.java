@@ -9,18 +9,18 @@ import static org.junit.Assert.assertEquals;
  * Created by alfatihmukhtar on 2/22/17.
  */
 public class MyArrayListTEST {
-    MyArrayList arrList;
+    MyArrayList<Integer> arrList;
 
     @Before
     public void setUp() {
-        arrList = new MyArrayList();
+        arrList = new MyArrayList<Integer>();
     }
 
     @Test
     public void addTEST() {
-        arrList.add(new Integer(17));
-        int expected = 1;
-        int actual = arrList.container.length;
+        arrList.add(17);
+        int expected = 17;
+        int actual = arrList.container[0];
         assertEquals("I should get back the length of the new array created by the method",expected,actual);
     }
 }
